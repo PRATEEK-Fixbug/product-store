@@ -1,6 +1,5 @@
 import { DeleteIcon, EditIcon } from "@chakra-ui/icons";
 import {
-<<<<<<< HEAD
 	Box,
 	Button,
 	Heading,
@@ -21,29 +20,6 @@ import {
 	useToast,
 	VStack,
 } from "@chakra-ui/react";
-=======
-  Box,
-  Button,
-  Heading,
-  HStack,
-  IconButton,
-  Image,
-  Input,
-  Modal,
-  ModalBody,
-  ModalCloseButton,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  ModalOverlay,
-  Text,
-  useColorModeValue,
-  useDisclosure,
-  useToast,
-  VStack,
-} from "@chakra-ui/react";
-
->>>>>>> origin/main
 import { useProductStore } from "../store/product";
 import { useState } from "react";
 
@@ -177,4 +153,5 @@ const ProductCard = ({ product }) => {
 		</Box>
 	);
 };
+
 export default ProductCard;
