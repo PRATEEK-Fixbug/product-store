@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'public', // Set the output directory to 'public'
+    outDir: 'dist', // Ensure this is set to 'dist'
     rollupOptions: {
       external: ["react-router-dom"],
     },
