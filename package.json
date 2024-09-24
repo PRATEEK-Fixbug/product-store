@@ -4,10 +4,12 @@
   "description": "<h1 align=\"center\">MERN🚀</h1>",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
     "start": "cross-env NODE_ENV=production node backend/server.js"
-  },
+}
+,
+  
   "type": "module",
   "keywords": [],
   "author": "",
